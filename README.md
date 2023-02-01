@@ -6,6 +6,7 @@ This project main purpose is to mark my gaming progress as well as some though a
 
 ## Key Feature
 
+- Using NextJS framework for react and Mui for ui component
 - Responsive for mobile and even tablet
 - CSS animation (will try)
 
