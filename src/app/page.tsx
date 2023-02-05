@@ -10,7 +10,9 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <Button variant='contained'>Hello world</Button>
+        <Button variant='contained' color='secondary'>
+          Hello world
+        </Button>
         This Is Text Edit Later
       </div>
     </main>
