@@ -1,4 +1,5 @@
 import SearchAppBar from '@/components/appBar';
+import SimpleBottomNavigation from '@/components/bottomNav';
 import './globals.css';
 
 export default function RootLayout({
@@ -17,6 +18,7 @@ export default function RootLayout({
       <SearchAppBar />
       <body>{children}</body>
       {/* The layout Footer */}
+      <SimpleBottomNavigation />
     </html>
   );
 }
