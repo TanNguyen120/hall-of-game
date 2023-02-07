@@ -1,3 +1,6 @@
+// The emotion engine does not support sever side render so we must use the "use client " decorate
+'use client';
+
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import BottomNavigation from '@mui/material/BottomNavigation';
