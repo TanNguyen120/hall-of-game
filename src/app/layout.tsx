@@ -1,11 +1,11 @@
 // The emotion engine does not support sever side render so we must use the "use client " decorate
 'use client';
 
-import SimpleBottomNavigation from '@/components/bottomNav';
 import AppBar from '@/components/appBar';
 import { ThemeProvider } from '@emotion/react';
 import gamerTheme from '@/styles/theme/gamerTheme';
 import './globals.css';
+import Footer from '@/components/footer';
 
 export default function RootLayout({
   children,
@@ -25,6 +25,7 @@ export default function RootLayout({
         {/* <SearchAppBar /> */}
         <body>{children}</body>
         {/* The layout Footer */}
+        <Footer />
       </ThemeProvider>
     </html>
   );
