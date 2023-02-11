@@ -5,7 +5,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-  background-image: url('/public/back_ground/background.jpg');
+  background-image: url('/back_ground/background.jpg');
 }
 
 .description {

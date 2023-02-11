@@ -6,7 +6,7 @@ export default function Footer() {
       sx={{
         display: 'grid',
         gap: 2,
-        bgcolor: '#0c0c0c',
+        bgcolor: '#121212',
         gridTemplateRows: 'repeat(3, 1fr)',
       }}
     >

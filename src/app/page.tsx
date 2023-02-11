@@ -4,7 +4,8 @@ import { Inter } from '@next/font/google';
 import styles from './page.module.css';
 import Button from '@mui/material/Button';
 import { ThemeProvider } from '@mui/system';
-import { Container } from '@mui/material';
+import { Container, Typography } from '@mui/material';
+import SpecCard from '@/components/homeComponents/specComponent';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -18,8 +19,10 @@ export default function Home() {
           bgcolor: 'background.paper',
         }}
       >
-        <Button variant='contained'>Contained</Button>
-        This Is Text Edit Later
+        <Typography color={'white'} variant='h4'>
+          All The Game I Have And Will Play
+        </Typography>
+        <SpecCard />
       </Container>
       {/* </div> */}
     </main>
