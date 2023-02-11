@@ -3,9 +3,11 @@
 
 import AppBar from '@/components/appBar';
 import { ThemeProvider } from '@emotion/react';
-import gamerTheme from '@/styles/theme/gamerTheme';
+import { gamerTheme } from '@/styles/theme/gamerTheme';
 import './globals.css';
 import Footer from '@/components/footer';
+import { Theme } from '@mui/material';
+import { createTheme } from '@mui/system';
 
 export default function RootLayout({
   children,
@@ -20,6 +22,7 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
         <head />
+
         {/* The layout Header */}
         <AppBar />
         {/* <SearchAppBar /> */}

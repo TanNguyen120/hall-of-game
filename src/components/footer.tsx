@@ -1,10 +1,21 @@
-import { Grid } from '@mui/material';
+import { Box, Grid, Typography } from '@mui/material';
 
 export default function Footer() {
   return (
-    <Grid container spacing={2}>
-      <div>Project Hall Of Game 2023</div>
-      <div>Author: Nguyen Viet Tan</div>
-    </Grid>
+    <Box
+      sx={{
+        display: 'grid',
+        gap: 2,
+        bgcolor: '#0c0c0c',
+        gridTemplateRows: 'repeat(3, 1fr)',
+      }}
+    >
+      <Typography color='common.white' align='center' sx={{ p: 5 }}>
+        Project Hall Of Game 2023
+      </Typography>
+      <Typography color='white' align='center'>
+        Author: Nguyen Viet Tan
+      </Typography>
+    </Box>
   );
 }

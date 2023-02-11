@@ -7,9 +7,24 @@ import { ThemeOptions } from '@mui/material/styles';
 // the object contain our customize ui option
 const lightThemeOptions: ThemeOptions = {
   palette: {
-    mode: 'light',
+    mode: 'dark',
     primary: {
-      main: '#2a9461',
+      main: '#f50057',
+    },
+    secondary: {
+      main: '#e91e63',
+    },
+    background: {
+      default: '#0c0c0c',
+    },
+    text: {
+      primary: '#ffffff',
+    },
+    divider: '#c11818',
+  },
+  typography: {
+    button: {
+      letterSpacing: '0.07em',
     },
   },
 };

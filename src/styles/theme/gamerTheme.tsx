@@ -1,8 +1,8 @@
 'use client';
 
-import { createTheme } from '@mui/material/styles';
+import { createTheme, ThemeOptions } from '@mui/material/styles';
 
-export default createTheme({
+export const gamerTheme = createTheme({
   palette: {
     mode: 'dark',
     primary: {
