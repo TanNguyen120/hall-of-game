@@ -11,12 +11,17 @@ const inter = Inter({ subsets: ['latin'] });
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <Container maxWidth='sm'>
-          <Button variant='contained'>Contained</Button>
-          This Is Text Edit Later
-        </Container>
-      </div>
+      {/* <div className={styles.description}> */}
+      <Container
+        maxWidth='md'
+        sx={{
+          bgcolor: 'background.paper',
+        }}
+      >
+        <Button variant='contained'>Contained</Button>
+        This Is Text Edit Later
+      </Container>
+      {/* </div> */}
     </main>
   );
 }

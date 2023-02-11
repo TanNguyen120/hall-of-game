@@ -13,6 +13,7 @@ export const gamerTheme = createTheme({
     },
     background: {
       default: '#0c0c0c',
+      paper: '#121212',
     },
     text: {
       primary: '#ffffff',

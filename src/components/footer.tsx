@@ -10,7 +10,7 @@ export default function Footer() {
         gridTemplateRows: 'repeat(3, 1fr)',
       }}
     >
-      <Typography color='common.white' align='center' sx={{ p: 5 }}>
+      <Typography color='common.white' align='center' sx={{ mt: 2 }}>
         Project Hall Of Game 2023
       </Typography>
       <Typography color='white' align='center'>
