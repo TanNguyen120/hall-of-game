@@ -4,10 +4,10 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import Avatar from '@mui/material/Avatar';
-import MemoryIcon from '@mui/icons-material/Memory';
-import Crop169Icon from '@mui/icons-material/Crop169';
-import PersonalVideoIcon from '@mui/icons-material/PersonalVideo';
-import StorageIcon from '@mui/icons-material/Storage';
+import MouseIcon from '@mui/icons-material/Mouse';
+import KeyboardIcon from '@mui/icons-material/Keyboard';
+import WifiIcon from '@mui/icons-material/Wifi';
+import HeadphonesIcon from '@mui/icons-material/Headphones';
 import Divider from '@mui/material/Divider';
 
 export default function GearList() {
@@ -22,37 +22,40 @@ export default function GearList() {
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <MemoryIcon />
+            <MouseIcon />
           </Avatar>
         </ListItemAvatar>
-        <ListItemText primary='CPU' secondary='Intel(R) Core(TM) i3-6100' />
+        <ListItemText primary='Mouse' secondary='Logitech G102 Prodigy' />
       </ListItem>
       <Divider variant='inset' component='li' />
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <Crop169Icon />
+            <KeyboardIcon />
           </Avatar>
         </ListItemAvatar>
-        <ListItemText primary='RAM' secondary='8Gb 2100hz single chanel' />
+        <ListItemText primary='Key Board' secondary='Geezer GS4 Blue Switch' />
       </ListItem>
       <Divider variant='inset' component='li' />
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <PersonalVideoIcon />
+            <HeadphonesIcon />
           </Avatar>
         </ListItemAvatar>
-        <ListItemText primary='VGA' secondary='NVIDIA GeForce GTX 1060 3GB' />
+        <ListItemText primary='Sound' secondary='MoonDrop Chu' />
       </ListItem>
       <Divider variant='inset' component='li' />
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <StorageIcon />
+            <WifiIcon />
           </Avatar>
         </ListItemAvatar>
-        <ListItemText primary='STORAGE' secondary='1TB HDD + 250GB SSD ' />
+        <ListItemText
+          primary='Wifi'
+          secondary='ToTo Link A2000UA USB adapter'
+        />
       </ListItem>
     </List>
   );
