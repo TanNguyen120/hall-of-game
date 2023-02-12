@@ -17,11 +17,10 @@ export default function Home() {
         maxWidth='md'
         sx={{
           bgcolor: 'background.paper',
+          p: 4,
         }}
       >
-        <Typography color={'white'} variant='h4'>
-          All The Game I Have And Will Play
-        </Typography>
+        {/* Pc Spec will change through time */}
         <SpecCard />
       </Container>
       {/* </div> */}
