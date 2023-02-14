@@ -1,3 +1,9 @@
+'use client';
+import { Container, Typography } from '@mui/material';
 export default function retroHome() {
-  return <div>Retro GAME GO HERE</div>;
+  return (
+    <div>
+      <Container maxWidth='md'>This is fine</Container>
+    </div>
+  );
 }

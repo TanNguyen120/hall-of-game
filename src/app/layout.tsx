@@ -16,20 +16,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <ThemeProvider theme={gamerTheme}>
-        {/*
+      <head />
+      {/*
         <head /> will contain the components returned by the nearest parent
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-        <head />
+      {/* The layout Header */}
 
-        {/* The layout Header */}
-        <AppBar />
-        {/* <SearchAppBar /> */}
-        <body>{children}</body>
-        {/* The layout Footer */}
-        <Footer />
-      </ThemeProvider>
+      <AppBar />
+      {/* <SearchAppBar /> */}
+      <body>{children}</body>
+      {/* The layout Footer */}
+      <Footer />
     </html>
   );
 }
