@@ -22,12 +22,13 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       {/* The layout Header */}
-
-      <AppBar />
-      {/* <SearchAppBar /> */}
-      <body>{children}</body>
-      {/* The layout Footer */}
-      <Footer />
+      <ThemeProvider theme={gamerTheme}>
+        <AppBar />
+        {/* <SearchAppBar /> */}
+        <body>{children}</body>
+        {/* The layout Footer */}
+        <Footer />
+      </ThemeProvider>
     </html>
   );
 }

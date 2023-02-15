@@ -41,7 +41,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position='fixed'>
+    <AppBar position='absolute'>
       <Container maxWidth='xl'>
         <Toolbar disableGutters>
           <SportsEsportsTwoToneIcon
