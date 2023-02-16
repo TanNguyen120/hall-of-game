@@ -6,10 +6,11 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
-import InboxIcon from '@mui/icons-material/Inbox';
-import DraftsIcon from '@mui/icons-material/Drafts';
 
-export default function BasicList() {
+import DraftsIcon from '@mui/icons-material/Drafts';
+import Image from 'next/image';
+
+export default function ConsoleList() {
   return (
     <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
       <nav aria-label='main mailbox folders'>
@@ -17,9 +18,14 @@ export default function BasicList() {
           <ListItem disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                <InboxIcon />
+                <Image
+                  src='/icon/gba.png'
+                  alt='gba icon'
+                  width={50}
+                  height={50}
+                />
               </ListItemIcon>
-              <ListItemText primary='Inbox' />
+              <ListItemText primary='Game Boy Advance' />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>

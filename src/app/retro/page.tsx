@@ -1,5 +1,6 @@
 'use client';
 import { Container, Divider, Grid, Typography } from '@mui/material';
+import ConsoleList from './consoleList';
 export default function retroHome() {
   return (
     <div className=' bg-retroBackGround min-h-screen bg-repeat-x'>
@@ -27,6 +28,7 @@ export default function retroHome() {
             List Of Console and old PC
           </Typography>
           <Divider sx={{ mb: 2 }} />
+          <ConsoleList />
         </div>
       </Container>
     </div>
