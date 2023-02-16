@@ -1,8 +1,8 @@
 'use client';
-import { Container, Typography } from '@mui/material';
+import { Container, Grid, Typography } from '@mui/material';
 export default function retroHome() {
   return (
-    <div>
+    <div className=' bg-retroBackGround min-h-screen bg-repeat-x'>
       <Container
         maxWidth='md'
         sx={{
@@ -10,11 +10,9 @@ export default function retroHome() {
           pt: 8,
         }}
       >
-        <div className=' mt-10 p-36 bg-slate-800 '>
-          <Typography className=' mt-10 p-36 bg-slate-800'>
-            This is fine
-          </Typography>
-        </div>
+        <Grid container spacing={2}>
+          <Typography variant='h2'>What Is Retro</Typography>
+        </Grid>
       </Container>
     </div>
   );
