@@ -2,6 +2,7 @@
 import { ThemeProvider } from '@emotion/react';
 import { Container, Divider, Grid, Typography } from '@mui/material';
 import { gamerTheme } from '@/styles/theme/gamerTheme';
+import GameBtn from '@/components/gameBtn';
 export default function retroHome() {
   return (
     <div className=' bg-gbaBackGround min-h-screen bg-repeat-x'>
@@ -36,6 +37,18 @@ export default function retroHome() {
               Game Played
             </Typography>
             <Divider sx={{ mb: 2 }} />
+            {/* ---------------------------------------------------------------------------------------------------------------------------- */}
+            <GameBtn
+              gameName='Metroid Fusion'
+              boxArtUrl='/component_img/gameBtnBoxArt/metroidFusion.jpg'
+              href='/retro/gba/metroid_fusion'
+            />
+            {/* ---------------------------------------------------------------------------------------------------------------------------- */}
+            <GameBtn
+              gameName='The Legend Of Zelda: The Minish Cap'
+              boxArtUrl='/component_img/gameBtnBoxArt/zeldaMinishCap.png'
+              href='/retro/gba/zelda_minish_cap'
+            />
           </div>
         </Container>
       </ThemeProvider>
