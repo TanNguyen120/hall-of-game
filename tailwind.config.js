@@ -13,7 +13,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'retroBackGround': "url('/component_img/componentBackGround/retroBackGround.jpg')"
+        'retroBackGround': "url('/component_img/componentBackGround/retroBackGround.jpg')",
+        'gbaBackGround': "url('/component_img/componentBackGround/gbaBg.png')"
       },
     },
   },

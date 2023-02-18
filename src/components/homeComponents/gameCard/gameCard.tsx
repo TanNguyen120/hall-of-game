@@ -4,6 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
+import GameCategoryBtn from '../categoryGameBtn';
 
 export default function GameCard({
   gameTile,
@@ -30,9 +31,13 @@ export default function GameCard({
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size='small' color='primary'>
-          {genre.map((element) => element)}
-        </Button>
+        {genre.map((element) => (
+          <GameCategoryBtn
+            categoryName={element}
+            href={`/${element}`}
+            key={element}
+          />
+        ))}
       </CardActions>
     </Card>
   );
