@@ -11,15 +11,17 @@ export default function GameCard({
   shortDescription,
   genre,
   imgSrc,
+  gameHref,
 }: {
   gameTile: string;
   shortDescription: string;
   genre: Array<string>;
   imgSrc: string;
+  gameHref: string;
 }) {
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
+      <CardActionArea href={gameHref}>
         <CardMedia component='img' height='340' image={imgSrc} alt={gameTile} />
         <CardContent>
           <Typography gutterBottom variant='h5' component='div'>

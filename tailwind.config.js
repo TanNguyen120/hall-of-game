@@ -14,7 +14,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'retroBackGround': "url('/component_img/componentBackGround/retroBackGround.jpg')",
-        'gbaBackGround': "url('/component_img/componentBackGround/gbaBg.png')"
+        'gbaBackGround': "url('/component_img/componentBackGround/gbaBg.png')",
+        'metroidFusionBackGround': "url('/component_img/gamePageBackGround/metroidFusion.jpg')"
       },
     },
   },

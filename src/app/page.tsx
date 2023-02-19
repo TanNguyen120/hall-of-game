@@ -57,6 +57,7 @@ export default function Home() {
             shortDescription=' One of the best metroidvania Game on the gameboy advance'
             genre={['platformer', 'retro', 'puzzle']}
             imgSrc='/component_img/gameListBoxArt/metroidFusion.jpg'
+            gameHref='/retro/gba/metroid_fusion'
           />
           {/* ----------------------------------------------------------------------- */}
           {/* Zelda And The MinishCap */}
@@ -65,6 +66,7 @@ export default function Home() {
             shortDescription=' Second zelda game on the gameboy advance '
             genre={['hack&slash', 'retro', 'puzzle']}
             imgSrc='/component_img/gameListBoxArt/zeldaTheMinishCap.jpg'
+            gameHref='/retro/gba/zelda_minishcap'
           />
         </Grid>
       </Container>
