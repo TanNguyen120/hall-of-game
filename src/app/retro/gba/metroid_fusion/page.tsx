@@ -11,6 +11,8 @@ import {
 } from '@mui/material';
 import DateRangeIcon from '@mui/icons-material/DateRange';
 import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import Image from 'next/image';
 
 export default function MetroidFusion() {
   return (
@@ -33,6 +35,7 @@ export default function MetroidFusion() {
             Metroid Fusion
           </Typography>
           <Divider sx={{ mb: 2 }} />
+          {/* -------------------------------------------------------------------------------------------------------------------------- */}
           <ListItem>
             <ListItemAvatar>
               <Avatar>
@@ -52,6 +55,31 @@ export default function MetroidFusion() {
               secondary='Hard ( Boss fights are somewhat challenge)'
             />
           </ListItem>
+          <ListItem>
+            <ListItemAvatar>
+              <Avatar>
+                <EmojiEventsIcon />
+              </Avatar>
+            </ListItemAvatar>
+            <ListItemText primary='Personal Score' secondary='6/10 Good Game' />
+          </ListItem>
+          <Divider sx={{ mb: 2 }} />
+          {/* -------------------------------------------------------------------------------------------------------------------------- */}
+          <Typography
+            sx={{
+              m: 3,
+            }}
+            variant='h4'
+            color='primary'
+          >
+            Story Quick Recap
+          </Typography>
+          <Typography sx={{ m: 3 }} color='white'>
+            You Have to go explore a space station that go offline. The space
+            station is researching an alien life form call X and it is a
+            parasite. You sure that the X have infect the station and you have
+            to stop it at all cost
+          </Typography>
         </div>
       </Container>
     </div>
