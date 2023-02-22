@@ -19,11 +19,13 @@ import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import Image from 'next/image';
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
+import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import PictureFrame from '@/components/pictureFrame';
+import SentimentVeryDissatisfiedIcon from '@mui/icons-material/SentimentVeryDissatisfied';
 
 export default function MetroidFusion() {
   return (
-    <div className=' bg-metroidFusionBackGround min-h-screen bg-repeat-x'>
+    <div className=' bg-metroidFusionBackGround min-h-screen bg-repeat-y cursor-metroidFusion'>
       <Container
         maxWidth='md'
         sx={{
@@ -92,7 +94,7 @@ export default function MetroidFusion() {
               is a supper computer. Through out the game the computer will give
               mission and help you find next objective
             </Typography>
-            <div className=' float-right '>
+            <div className=' float-right m-3'>
               <PictureFrame
                 urlSrc='/component_img/gameArticleImg/metroidFusion/blsStation.jpg'
                 width={400}
@@ -103,6 +105,7 @@ export default function MetroidFusion() {
           </div>
           <Divider sx={{ mb: 2 }} />
           {/* ---------------------------------------------------------------------------------------------------------------------------------- */}
+
           <Typography
             sx={{
               m: 3,
@@ -112,18 +115,61 @@ export default function MetroidFusion() {
           >
             Pro <ThumbUpIcon />
           </Typography>
-          <List>
-            <ListItem disablePadding>
-              <ListItemButton>
-                <ListItemText primary='Inbox' />
-              </ListItemButton>
-            </ListItem>
-            <ListItem disablePadding>
-              <ListItemButton>
-                <ListItemText primary='Drafts' />
-              </ListItemButton>
-            </ListItem>
-          </List>
+          <div className=' text-white'>
+            <List>
+              <ListItem disablePadding>
+                <ListItemButton>
+                  <ListItemText primary='- Carefully level design that make you feel progressive when defeat a boss and absorb your power back' />
+                </ListItemButton>
+              </ListItem>
+              <ListItem disablePadding>
+                <ListItemButton>
+                  <ListItemText primary='- Boss fight demand unique fighting style that mean you have to learn from defeat' />
+                </ListItemButton>
+              </ListItem>
+              <ListItem disablePadding>
+                <ListItemButton>
+                  <ListItemText primary='- The SA-X make the game have horror element which is good' />
+                </ListItemButton>
+              </ListItem>
+            </List>
+          </div>
+          <Divider sx={{ mb: 2 }} />
+          {/* ---------------------------------------------------------------------------------------------------------------------------------- */}
+          <Typography
+            sx={{
+              m: 3,
+            }}
+            variant='h4'
+            color='primary'
+          >
+            Con <ThumbDownIcon />
+          </Typography>
+          <div className=' text-white'>
+            <List>
+              <ListItem disablePadding>
+                <ListItemButton>
+                  <ListItemText primary='- The beam only useful in 2 last boss' />
+                </ListItemButton>
+              </ListItem>
+              <ListItem disablePadding>
+                <ListItemButton>
+                  <ListItemText primary='- Save room in weir place. And you have to fight two final boss back to back without save' />
+                </ListItemButton>
+              </ListItem>
+            </List>
+          </div>
+          <Divider sx={{ mb: 2 }} />
+          {/* ---------------------------------------------------------------------------------------------------------------------------------- */}
+          <Typography
+            sx={{
+              m: 3,
+            }}
+            variant='h4'
+            color='primary'
+          >
+            Most Hated Face <SentimentVeryDissatisfiedIcon />
+          </Typography>
         </div>
       </Container>
     </div>

@@ -17,6 +17,12 @@ module.exports = {
         'gbaBackGround': "url('/component_img/componentBackGround/gbaBg.png')",
         'metroidFusionBackGround': "url('/component_img/gamePageBackGround/metroidFusion.jpg')"
       },
+      // custom cursor because i like it
+      cursor: {
+        // default: 'url(/images/cursor.png), default',
+        // pointer: 'url(/images/cursor.png), pointer',
+        metroidFusion: 'url(/component_img/gameArticleImg/metroidFusion/cursor.png), metroidFusion'
+      },
     },
   },
   plugins: [],
