@@ -13,9 +13,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+        // page list bg
         'retroBackGround': "url('/component_img/componentBackGround/retroBackGround.jpg')",
         'gbaBackGround': "url('/component_img/componentBackGround/gbaBg.png')",
-        'metroidFusionBackGround': "url('/component_img/gamePageBackGround/metroidFusion.jpg')"
+        // game page bg
+        'metroidFusionBackGround': "url('/component_img/gamePageBackGround/metroidFusion.jpg')",
+        'zeldaMinishCapBg': "url('/component_img/gameArticleImg/zeldaMinishCap/backGround.jpg')",
       },
       // custom cursor because i like it
       cursor: {
