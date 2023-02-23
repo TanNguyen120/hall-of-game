@@ -25,7 +25,7 @@ import SentimentVeryDissatisfiedIcon from '@mui/icons-material/SentimentVeryDiss
 
 export default function MetroidFusion() {
   return (
-    <div className=' bg-metroidFusionBackGround min-h-screen bg-repeat-y cursor-metroidFusion'>
+    <div className=' bg-metroidFusionBackGround min-h-screen bg-repeat-y hover:cursor-metroidFusion'>
       <Container
         maxWidth='md'
         sx={{
@@ -170,6 +170,14 @@ export default function MetroidFusion() {
           >
             Most Hated Face <SentimentVeryDissatisfiedIcon />
           </Typography>
+          <div className=' m-3'>
+            <PictureFrame
+              alt='yakuza spider ( Why the save point is so far away )'
+              urlSrc='/component_img/gameArticleImg/metroidFusion/spiderBoss.png'
+              width={400}
+              heigh={400}
+            />
+          </div>
         </div>
       </Container>
     </div>
