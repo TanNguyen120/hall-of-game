@@ -33,45 +33,62 @@ export default function MetroidFusion() {
           pt: 8,
         }}
       >
-        <div className=' bg-slate-600 bg-opacity-70 grid grid-cols-1'>
-          <Typography
-            color={'primary'}
-            variant={'h3'}
-            sx={{
-              m: 3,
-            }}
-          >
-            Metroid Fusion
-          </Typography>
+        <div className=' bg-slate-600 bg-opacity-70 grid grid-cols-1 items-center'>
+          <div className=' grid grid-cols-1 m-3'>
+            <div>
+              <Image
+                src='/component_img/gameArticleImg/metroidFusion/gameTile.png'
+                alt=' Metroid Fusion'
+                width={600}
+                height={400}
+              />
+            </div>
+          </div>
           <Divider sx={{ mb: 2 }} />
           {/* -------------------------------------------------------------------------------------------------------------------------- */}
-          <ListItem>
-            <ListItemAvatar>
-              <Avatar>
-                <DateRangeIcon />
-              </Avatar>
-            </ListItemAvatar>
-            <ListItemText primary='Complete Date' secondary='1/2/2023' />
-          </ListItem>
-          <ListItem>
-            <ListItemAvatar>
-              <Avatar>
-                <MilitaryTechIcon />
-              </Avatar>
-            </ListItemAvatar>
-            <ListItemText
-              primary='Difficulty'
-              secondary='Hard ( Boss fights are somewhat challenge)'
-            />
-          </ListItem>
-          <ListItem>
-            <ListItemAvatar>
-              <Avatar>
-                <EmojiEventsIcon />
-              </Avatar>
-            </ListItemAvatar>
-            <ListItemText primary='Personal Score' secondary='6/10 Good Game' />
-          </ListItem>
+          <div className=' grid grid-cols-2'>
+            <div>
+              <ListItem>
+                <ListItemAvatar>
+                  <Avatar>
+                    <DateRangeIcon />
+                  </Avatar>
+                </ListItemAvatar>
+                <ListItemText primary='Complete Date' secondary='1/2/2023' />
+              </ListItem>
+              <ListItem>
+                <ListItemAvatar>
+                  <Avatar>
+                    <MilitaryTechIcon />
+                  </Avatar>
+                </ListItemAvatar>
+                <ListItemText
+                  primary='Difficulty'
+                  secondary='Hard ( Boss fights are somewhat challenge)'
+                />
+              </ListItem>
+              <ListItem>
+                <ListItemAvatar>
+                  <Avatar>
+                    <EmojiEventsIcon />
+                  </Avatar>
+                </ListItemAvatar>
+                <ListItemText
+                  primary='Personal Score'
+                  secondary='6/10 Good Game'
+                />
+              </ListItem>
+            </div>
+            <div className=' m-3'>
+              <Image
+                src='/component_img/gameArticleImg/metroidFusion/boxArt.png'
+                alt=' Box Art'
+                width={300}
+                height={300}
+              />
+            </div>
+          </div>
+
           <Divider sx={{ mb: 2 }} />
           {/* -------------------------------------------------------------------------------------------------------------------------- */}
           <Typography
