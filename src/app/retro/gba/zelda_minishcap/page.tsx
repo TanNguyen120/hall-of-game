@@ -22,6 +22,7 @@ import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import PictureFrame from '@/components/pictureFrame';
 import SentimentVeryDissatisfiedIcon from '@mui/icons-material/SentimentVeryDissatisfied';
+import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 
 export default function ZeldaMinishCap() {
   return (
@@ -104,25 +105,23 @@ export default function ZeldaMinishCap() {
             variant='h4'
             color='primary'
           >
-            Story Quick Recap
+            Story Quick Recap <AutoStoriesIcon />
           </Typography>
           <div className=' grid grid-cols-2'>
             <Typography sx={{ m: 3 }} color='white'>
-              You Have to go explore a space station that go offline. The space
-              station is secretly study an alien life form call X and it is a
-              parasite. You sure that the X have infect the station and you have
-              to stop it at all cost.
-              {'  '}
-              The X Parasite is a formal enemy in the previous game. Assist you
-              is a supper computer. Through out the game the computer will give
-              mission and help you find next objective
+              Like Always Princess Zelda is in some trouble and you have to save
+              her and in the and the two is just FRIEND This time we are in
+              Hyrule kingdom. There an evil wizard name vaati want the The light
+              force so he curse the princess just for fun and Link have to
+              reforge a divine blade that can cure this curse. Oh and the game
+              have tiny people and we can sink in size and meet them ( neat )
             </Typography>
             <div className=' float-right m-3'>
               <PictureFrame
-                urlSrc='/component_img/gameArticleImg/metroidFusion/blsStation.jpg'
+                urlSrc='/component_img/gameArticleImg/zeldaMinishCap/Map_of_Hyrule_Town.png'
                 width={400}
                 heigh={400}
-                alt='The in game station '
+                alt='Hyrule Town '
               />
             </div>
           </div>
@@ -136,26 +135,20 @@ export default function ZeldaMinishCap() {
             variant='h4'
             color='primary'
           >
-            Pro <ThumbUpIcon />
+            Favorite Feature <ThumbUpIcon />
           </Typography>
           <div className=' text-white'>
-            <List>
-              <ListItem disablePadding>
-                <ListItemButton>
-                  <ListItemText primary='- Carefully level design that make you feel progressive when defeat a boss and absorb your power back' />
-                </ListItemButton>
-              </ListItem>
-              <ListItem disablePadding>
-                <ListItemButton>
-                  <ListItemText primary='- Boss fight demand unique fighting style that mean you have to learn from defeat' />
-                </ListItemButton>
-              </ListItem>
-              <ListItem disablePadding>
-                <ListItemButton>
-                  <ListItemText primary='- The SA-X make the game have horror element which is good' />
-                </ListItemButton>
-              </ListItem>
-            </List>
+            <Typography color={'white'} sx={{ m: 3 }}>
+              I love the sinking size feature. It play a primary role in the
+              game and it remind me of the childhood dream of exploring the
+              world when you are small
+            </Typography>
+            <PictureFrame
+              urlSrc='/component_img/gameArticleImg/zeldaMinishCap/portal.gif'
+              width={600}
+              heigh={600}
+              alt='Minish Portal '
+            />
           </div>
           <Divider sx={{ mb: 2 }} />
           {/* ---------------------------------------------------------------------------------------------------------------------------------- */}
@@ -166,22 +159,17 @@ export default function ZeldaMinishCap() {
             variant='h4'
             color='primary'
           >
-            Con <ThumbDownIcon />
+            Annoying Feature <ThumbDownIcon />
           </Typography>
-          <div className=' text-white'>
-            <List>
-              <ListItem disablePadding>
-                <ListItemButton>
-                  <ListItemText primary='- The beam only useful in 2 last boss' />
-                </ListItemButton>
-              </ListItem>
-              <ListItem disablePadding>
-                <ListItemButton>
-                  <ListItemText primary='- Save room in weir place. And you have to fight two final boss back to back without save' />
-                </ListItemButton>
-              </ListItem>
-            </List>
-          </div>
+          <Typography color={'white'} sx={{ m: 3 }}>
+            The Ice floor make you appreciate Friction more than ever
+          </Typography>
+          <PictureFrame
+            urlSrc='/component_img/gameArticleImg/zeldaMinishCap/iceFloor.gif'
+            width={600}
+            heigh={600}
+            alt='The Ice Floor '
+          />
           <Divider sx={{ mb: 2 }} />
           {/* ---------------------------------------------------------------------------------------------------------------------------------- */}
           <Typography
@@ -195,8 +183,8 @@ export default function ZeldaMinishCap() {
           </Typography>
           <div className=' m-3'>
             <PictureFrame
-              alt='yakuza spider ( Why the save point is so far away )'
-              urlSrc='/component_img/gameArticleImg/metroidFusion/spiderBoss.png'
+              alt='Remeber to return a book after you borrow it from the library is what make a decent human being. A hole'
+              urlSrc='/component_img/gameArticleImg/zeldaMinishCap/THEMAYOR.png'
               width={400}
               heigh={400}
             />

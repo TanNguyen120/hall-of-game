@@ -22,6 +22,7 @@ import ThumbUpIcon from '@mui/icons-material/ThumbUp';
 import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import PictureFrame from '@/components/pictureFrame';
 import SentimentVeryDissatisfiedIcon from '@mui/icons-material/SentimentVeryDissatisfied';
+import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 
 export default function MetroidFusion() {
   return (
@@ -98,7 +99,7 @@ export default function MetroidFusion() {
             variant='h4'
             color='primary'
           >
-            Story Quick Recap
+            Story Quick Recap <AutoStoriesIcon />
           </Typography>
           <div className=' grid grid-cols-2'>
             <Typography sx={{ m: 3 }} color='white'>
