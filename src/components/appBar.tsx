@@ -13,7 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import SportsEsportsTwoToneIcon from '@mui/icons-material/SportsEsportsTwoTone';
 
-const pages = ['Completed', 'Playing', 'In Queue'];
+const pages = ['pc', 'retro', 'online'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 const webName = 'HoG';
 
@@ -95,8 +95,14 @@ function ResponsiveAppBar() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign='center'>{page}</Typography>
+                <MenuItem key={page}>
+                  <Typography
+                    textAlign='center'
+                    component='a'
+                    href={`/${page}`}
+                  >
+                    {page}
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -126,8 +132,9 @@ function ResponsiveAppBar() {
             {pages.map((page) => (
               <Button
                 key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                component='a'
+                href={`/${page}`}
+                sx={{ my: 2, color: '', display: 'block' }}
               >
                 {page}
               </Button>
