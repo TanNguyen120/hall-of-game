@@ -14,7 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import SportsEsportsTwoToneIcon from '@mui/icons-material/SportsEsportsTwoTone';
 
 const pages = ['pc', 'retro', 'online'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const settings = ['platformer', 'puzzle', 'hack&slash'];
 const webName = 'HoG';
 
 function ResponsiveAppBar() {
@@ -142,9 +142,9 @@ function ResponsiveAppBar() {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title='Open settings'>
+            <Tooltip title='Game category'>
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt='Remy Sharp' src='/static/images/avatar/2.jpg' />
+                <Avatar alt='Category' src='\icon\jinjo.png' />
               </IconButton>
             </Tooltip>
             <Menu
