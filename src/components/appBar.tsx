@@ -14,7 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import SportsEsportsTwoToneIcon from '@mui/icons-material/SportsEsportsTwoTone';
 
 const pages = ['pc', 'retro', 'online'];
-const settings = ['platformer', 'puzzle', 'hack&slash'];
+const settings = ['platformer', 'puzzle', 'hack&slash', 'card', 'strategy'];
 const webName = 'HoG';
 
 function ResponsiveAppBar() {
