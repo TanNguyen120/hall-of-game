@@ -143,7 +143,11 @@ function ResponsiveAppBar() {
 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title='Game category'>
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+              <IconButton
+                onClick={handleOpenUserMenu}
+                sx={{ p: 0 }}
+                className='animate-spin '
+              >
                 <Avatar alt='Category' src='\icon\jinjo.png' />
               </IconButton>
             </Tooltip>

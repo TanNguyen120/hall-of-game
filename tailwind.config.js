@@ -20,7 +20,8 @@ module.exports = {
         'metroidFusionBackGround': "url('/component_img/gamePageBackGround/metroidFusion.jpg')",
         'zeldaMinishCapBg': "url('/component_img/gameArticleImg/zeldaMinishCap/backGround.jpg')",
         'platformerBg': "url(/back_ground/platformer/bg.jpg)",
-        'puzzleBg': "url(/back_ground/puzzle/bg.jpg)"
+        'puzzleBg': "url(/back_ground/puzzle/bg.jpg)",
+        'pcBg': "url(/back_ground/pc/bg.jpg)",
       },
       // custom cursor because i like it
       cursor: {
