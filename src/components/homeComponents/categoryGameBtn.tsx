@@ -9,10 +9,10 @@ export default function GameCategoryBtn({
   href: string;
 }) {
   return (
-    <CardActions>
+    <div className=' flex flex-row'>
       <Button size='small' color='primary'>
         <Link href={href}>{categoryName}</Link>
       </Button>
-    </CardActions>
+    </div>
   );
 }

@@ -44,13 +44,7 @@ export default function Home() {
           Games List:
         </Typography>
         <Divider sx={{ mb: 2 }} />
-        <Grid
-          container
-          direction='row'
-          justifyContent='center'
-          alignItems='center'
-          gap={5}
-        >
+        <div className=' grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4'>
           {/* Metroid Fusion */}
           <GameCard
             gameTile='Metroid Fusion'
@@ -68,7 +62,15 @@ export default function Home() {
             imgSrc='/component_img/gameListBoxArt/zeldaTheMinishCap.jpg'
             gameHref='/retro/gba/zelda_minishcap'
           />
-        </Grid>
+          {/* ------------------------------------------------------------------------ */}
+          <GameCard
+            gameTile='Pokémon FireRed Version'
+            shortDescription=' Remaster version of the first pokemon game '
+            genre={['rpg', 'retro', 'strategy']}
+            imgSrc='/gamesImg/fireRed/gameBtnBg.jpg'
+            gameHref='/retro/gba/pkm_fire_red'
+          />
+        </div>
       </Container>
       {/* </div> */}
     </main>

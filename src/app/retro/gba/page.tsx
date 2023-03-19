@@ -49,6 +49,12 @@ export default function retroHome() {
               boxArtUrl='/component_img/gameBtnBoxArt/zeldaMinishCap.png'
               href='/retro/gba/zelda_minish_cap'
             />
+            {/* ---------------------------------------------------------------------------------------------------------------------------- */}
+            <GameBtn
+              gameName='Pokémon FireRed Version'
+              boxArtUrl='/gamesImg/fireRed/boxArt.jpg'
+              href='/retro/gba/pkm_fire_red'
+            />
           </div>
         </Container>
       </ThemeProvider>
