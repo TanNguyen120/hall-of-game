@@ -23,7 +23,6 @@ import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import PictureFrame from '@/components/pictureFrame';
 import SentimentVeryDissatisfiedIcon from '@mui/icons-material/SentimentVeryDissatisfied';
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
-import PokeFrame from './pokeFrame';
 
 export default function MetroidFusion() {
   return (
@@ -132,44 +131,6 @@ export default function MetroidFusion() {
           >
             My Team <SentimentVeryDissatisfiedIcon />
           </Typography>
-          <div className=' m-3 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1'>
-            <PokeFrame
-              alt='charizard'
-              urlSrc='/gamesImg/fireRed/charizard.png'
-              width={200}
-              heigh={200}
-            />
-            <PokeFrame
-              alt='aerodactyl'
-              urlSrc='/gamesImg/fireRed/aerodactyl.jpg'
-              width={200}
-              heigh={200}
-            />
-            <PokeFrame
-              alt='lapras'
-              urlSrc='/gamesImg/fireRed/lapras.png'
-              width={200}
-              heigh={200}
-            />
-            <PokeFrame
-              alt='dugtrio'
-              urlSrc='/gamesImg/fireRed/dugTrio.jpg'
-              width={200}
-              heigh={200}
-            />
-            <PokeFrame
-              alt='kadabra'
-              urlSrc='/gamesImg/fireRed/kadabra.jpg'
-              width={200}
-              heigh={200}
-            />
-            <PokeFrame
-              alt='nidoking'
-              urlSrc='/gamesImg/fireRed/nidoking.jpg'
-              width={200}
-              heigh={200}
-            />
-          </div>
         </div>
       </Container>
     </div>
