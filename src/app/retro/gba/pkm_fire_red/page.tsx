@@ -23,6 +23,7 @@ import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import PictureFrame from '@/components/pictureFrame';
 import SentimentVeryDissatisfiedIcon from '@mui/icons-material/SentimentVeryDissatisfied';
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
+import PokeFrame from './pokeFrame';
 
 export default function MetroidFusion() {
   return (
@@ -122,8 +123,6 @@ export default function MetroidFusion() {
             </div>
           </div>
           <Divider sx={{ mb: 2 }} />
-          {/* ---------------------------------------------------------------------------------------------------------------------------------- */}
-
           <Typography
             sx={{
               m: 3,
@@ -131,69 +130,32 @@ export default function MetroidFusion() {
             variant='h4'
             color='primary'
           >
-            Pro <ThumbUpIcon />
+            My Team <SentimentVeryDissatisfiedIcon />
           </Typography>
-          <div className=' text-white'>
-            <List>
-              <ListItem disablePadding>
-                <ListItemButton>
-                  <ListItemText primary='- Carefully level design that make you feel progressive when defeat a boss and absorb your power back' />
-                </ListItemButton>
-              </ListItem>
-              <ListItem disablePadding>
-                <ListItemButton>
-                  <ListItemText primary='- Boss fight demand unique fighting style that mean you have to learn from defeat' />
-                </ListItemButton>
-              </ListItem>
-              <ListItem disablePadding>
-                <ListItemButton>
-                  <ListItemText primary='- The SA-X make the game have horror element which is good' />
-                </ListItemButton>
-              </ListItem>
-            </List>
-          </div>
-          <Divider sx={{ mb: 2 }} />
-          {/* ---------------------------------------------------------------------------------------------------------------------------------- */}
-          <Typography
-            sx={{
-              m: 3,
-            }}
-            variant='h4'
-            color='primary'
-          >
-            Con <ThumbDownIcon />
-          </Typography>
-          <div className=' text-white'>
-            <List>
-              <ListItem disablePadding>
-                <ListItemButton>
-                  <ListItemText primary='- The beam only useful in 2 last boss' />
-                </ListItemButton>
-              </ListItem>
-              <ListItem disablePadding>
-                <ListItemButton>
-                  <ListItemText primary='- Save room in weir place. And you have to fight two final boss back to back without save' />
-                </ListItemButton>
-              </ListItem>
-            </List>
-          </div>
-          <Divider sx={{ mb: 2 }} />
-          {/* ---------------------------------------------------------------------------------------------------------------------------------- */}
-          <Typography
-            sx={{
-              m: 3,
-            }}
-            variant='h4'
-            color='primary'
-          >
-            Most Hated Face <SentimentVeryDissatisfiedIcon />
-          </Typography>
-          <div className=' m-3'>
-            <PictureFrame
-              alt='yakuza spider ( Why the save point is so far away )'
-              urlSrc='/component_img/gameArticleImg/metroidFusion/spiderBoss.png'
-              width={400}
-              heigh={400}
+          <div className=' m-3 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1'>
+            <PokeFrame
+              alt='charizard'
+              urlSrc='/gamesImg/fireRed/charizard.png'
+              width={200}
+              heigh={200}
+            />
+            <PokeFrame
+              alt='charizard'
+              urlSrc='/gamesImg/fireRed/charizard.png'
+              width={200}
+              heigh={200}
+            />
+            <PokeFrame
+              alt='lapras'
+              urlSrc='/gamesImg/fireRed/lapras.png'
+              width={200}
+              heigh={200}
+            />
+            <PokeFrame
+              alt='dugtrio'
+              urlSrc='/gamesImg/fireRed/dugTrio.jpg'
+              width={200}
+              heigh={200}
             />
           </div>
         </div>
