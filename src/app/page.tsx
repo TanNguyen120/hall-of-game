@@ -45,6 +45,14 @@ export default function Home() {
         </Typography>
         <Divider sx={{ mb: 2 }} />
         <div className=' grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4'>
+          {/* ----------------------------------------------------------------------- */}
+          <GameCard
+            gameTile='Nier Automata'
+            shortDescription=' Yes because this world is so beautiful but is so cruel at the same time  '
+            genre={['pc', 'rpg', 'puzzle']}
+            imgSrc='/component_img/gameListBoxArt/metroidFusion.jpg'
+            gameHref='/pc/nier_automata'
+          />
           {/* Metroid Fusion */}
           <GameCard
             gameTile='Metroid Fusion'
