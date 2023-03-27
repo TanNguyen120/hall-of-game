@@ -67,9 +67,9 @@ export default function PLatformer() {
             <Divider sx={{ mb: 2 }} />
             {/* ---------------------------------------------------------------------------------------------------------------------------- */}
             <GameBtn
-              gameName='Metroid Fusion'
-              boxArtUrl='/component_img/gameBtnBoxArt/metroidFusion.jpg'
-              href='/retro/gba/metroid_fusion'
+              gameName='Nier Automata'
+              boxArtUrl='/gamesImg/nier_automata/icon.png'
+              href='/pc/nier_automata'
             />
             {/* ---------------------------------------------------------------------------------------------------------------------------- */}
           </div>

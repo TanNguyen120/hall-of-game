@@ -1,30 +1,15 @@
 'use client';
 
-import {
-  Container,
-  Typography,
-  Divider,
-  ListItem,
-  ListItemAvatar,
-  Avatar,
-  ListItemText,
-} from '@mui/material';
-import List from '@mui/material/List';
+import { Container, Typography, Divider, Button } from '@mui/material';
 
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
-
-import DateRangeIcon from '@mui/icons-material/DateRange';
-import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
-import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import Image from 'next/image';
-import ThumbUpIcon from '@mui/icons-material/ThumbUp';
-import ThumbDownIcon from '@mui/icons-material/ThumbDown';
-import PictureFrame from '@/components/pictureFrame';
-import SentimentVeryDissatisfiedIcon from '@mui/icons-material/SentimentVeryDissatisfied';
-import AutoStoriesIcon from '@mui/icons-material/AutoStories';
-
+import { useState } from 'react';
+import VisibilityIcon from '@mui/icons-material/Visibility';
 export default function MetroidFusion() {
+  // THIS PAGE WILL IMPLEMENT THE SPOILER FILTER FUNCTION
+  const [filter, setFilter] = useState(true);
+  const [filterAreaCss, setFilterAreaCss] = useState('');
+  const [spoilContendCss, setSpoilContentCss] = useState('');
   return (
     <div className=' bg-nierAutomataBg  bg-[length:2000px_1080px] min-h-screen bg-repeat-y '>
       <Container
@@ -47,6 +32,27 @@ export default function MetroidFusion() {
           </div>
           <Divider sx={{ mb: 2 }} />
           {/* -------------------------------------------------------------------------------------------------------------------------- */}
+          <div className=' grid grid-cols-1'>
+            <div className=' grid grid-cols-1 text-center p-3'>
+              <Typography color={'white'}>
+                Warning The Below Section contain{' '}
+                <span className=' font-semibold'>HEAVY SPOILER</span> for the
+                game story.
+              </Typography>
+              <Button
+                variant={'contained'}
+                startIcon={<VisibilityIcon />}
+                color='secondary'
+                className='bg-pink-700 w-fit mx-auto mt-7'
+              >
+                But I already beat the game !
+              </Button>
+            </div>
+            <Divider sx={{ mb: 2, mt: 2 }} />
+            <div className=' grid grid-cols-1'>
+              <h3> Story </h3>
+            </div>
+          </div>
         </div>
       </Container>
     </div>
