@@ -13,7 +13,7 @@ export default function PictureFrame({
   alt: string;
 }) {
   return (
-    <div className=' border border-pink-700 rounded-lg p-3 gird grid-cols-1 w-fit h-fit'>
+    <div className=' border border-pink-700 p-3 gird grid-cols-1 w-fit h-fit'>
       <Image src={urlSrc} alt={alt} height={heigh} width={width} />
       <div className=' text-base text-white '>{alt}</div>
     </div>

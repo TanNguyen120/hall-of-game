@@ -22,7 +22,8 @@ module.exports = {
         'platformerBg': "url(/back_ground/platformer/bg.jpg)",
         'puzzleBg': "url(/back_ground/puzzle/bg.jpg)",
         'pcBg': "url(/back_ground/pc/bg.jpg)",
-        'pkmFireRedBg': "url(/gamesImg/fireRed/pageBg.jpg)"
+        'pkmFireRedBg': "url(/gamesImg/fireRed/pageBg.jpg)",
+        'nierAutomataBg': "url(/gamesImg/nier_automata/bg.jpg)"
       },
       // custom cursor because i like it
       cursor: {

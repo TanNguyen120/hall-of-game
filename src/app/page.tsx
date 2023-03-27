@@ -50,7 +50,7 @@ export default function Home() {
             gameTile='Nier Automata'
             shortDescription=' Yes because this world is so beautiful but is so cruel at the same time  '
             genre={['pc', 'rpg', 'puzzle']}
-            imgSrc='/component_img/gameListBoxArt/metroidFusion.jpg'
+            imgSrc='/gamesImg/nier_automata/boxArt.jpg'
             gameHref='/pc/nier_automata'
           />
           {/* Metroid Fusion */}
