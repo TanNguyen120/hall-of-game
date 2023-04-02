@@ -67,7 +67,7 @@ export default function Home() {
             gameTile='The Legend Of Zelda:The Minish Cap'
             shortDescription=' Second zelda game on the gameboy advance '
             genre={['hack&slash', 'retro', 'puzzle']}
-            imgSrc='/component_img/gameListBoxArt/zeldaTheMinishCap.jpg'
+            imgSrc='/component_img/gameListBoxArt/zeldaTheMinishCap.png'
             gameHref='/retro/gba/zelda_minishcap'
           />
           {/* ------------------------------------------------------------------------ */}
