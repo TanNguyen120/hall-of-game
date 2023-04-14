@@ -6,6 +6,8 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
+import AdbIcon from '@mui/icons-material/Adb';
+import PictureFrame from '@/components/pictureFrame';
 
 export default function MetroidFusion() {
   // THIS PAGE WILL IMPLEMENT THE SPOILER FILTER FUNCTION
@@ -96,8 +98,25 @@ export default function MetroidFusion() {
                 variant='h4'
                 color='primary'
               >
-                2B our most beloved android <AutoStoriesIcon />
+                2B our most beloved android <AdbIcon />
               </Typography>
+              <div className=' flex p-3'>
+                <PictureFrame
+                  urlSrc='/gamesImg/nier_automata/2bOrNot2b.jpg'
+                  width={300}
+                  heigh={300}
+                  alt='2bornot2b'
+                />
+                <p>
+                  First line of her is &quot; Everything that lives is designed
+                  to end. We are perpetually trapped in a never-ending spiral of
+                  life and death. Is this a curse? Or some kind of punishment? I
+                  often think about the god who blessed us with this cryptic
+                  puzzle...and wonder if we&apos;ll ever get the chance to kill
+                  him &quot;. This line is very interesting as it change meaning
+                  through our progress in the game
+                </p>
+              </div>
             </div>
           </div>
         </div>
