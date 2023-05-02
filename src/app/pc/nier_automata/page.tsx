@@ -108,13 +108,25 @@ export default function MetroidFusion() {
                   alt='2bornot2b'
                 />
                 <p>
-                  First line of her is &quot; Everything that lives is designed
-                  to end. We are perpetually trapped in a never-ending spiral of
-                  life and death. Is this a curse? Or some kind of punishment? I
-                  often think about the god who blessed us with this cryptic
-                  puzzle...and wonder if we&apos;ll ever get the chance to kill
-                  him &quot;. This line is very interesting as it change meaning
-                  through our progress in the game
+                  <div>
+                    First line of her is &quot; Everything that lives is
+                    designed to end. We are perpetually trapped in a
+                    never-ending spiral of life and death. Is this a curse? Or
+                    some kind of punishment? I often think about the god who
+                    blessed us with this cryptic puzzle...and wonder if
+                    we&apos;ll ever get the chance to kill him &quot;. This line
+                    is very interesting as it change meaning through our
+                    progress in the game.
+                  </div>{' '}
+                  <div>
+                    Through out the game players will learn that Everything is a
+                    lie and the true protagonist of this game is acutely 9S (¬‿¬
+                    ). And 2B is just an assassin android with only one purpose
+                    to make sure 9S dose not figured out the secret of the game
+                    and that perfectly explain why she alway try to keep distant
+                    with 9S and a lot of NPC. Because all of this is
+                    meaningless.
+                  </div>
                 </p>
               </div>
             </div>

@@ -78,6 +78,14 @@ export default function Home() {
             imgSrc='/gamesImg/fireRed/gameBtnBg.jpg'
             gameHref='/retro/gba/pkm_fire_red'
           />
+          {/* ------------------------------------------------------------------------ */}
+          <GameCard
+            gameTile='Megaman X'
+            shortDescription='First game of the megaman X serries with different story compare to megaman serries despite the similarly character designs '
+            genre={['retro', 'platformer']}
+            imgSrc='/gamesImg/megamanX/cardImg.jpg'
+            gameHref='/retro/snes/megamanX'
+          />
         </div>
       </Container>
       {/* </div> */}
