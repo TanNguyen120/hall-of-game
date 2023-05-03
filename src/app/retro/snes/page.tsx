@@ -1,4 +1,5 @@
 'use client';
+
 import React from 'react';
 import { ThemeProvider } from '@emotion/react';
 import { Container, Divider, Grid, Typography } from '@mui/material';
@@ -15,7 +16,7 @@ const page = () => {
             pt: 8,
           }}
         >
-          <div className=' bg-slate-600 bg-opacity-70 grid grid-cols-1'>
+          <div className=' bg-slate-600 bg-opacity-90 grid grid-cols-1'>
             <Typography variant='h4' color={'primary.main'} sx={{ m: 2 }}>
               Super Nintendo Entertainment System
             </Typography>
@@ -47,7 +48,7 @@ const page = () => {
             <GameBtn
               gameName='Megaman X'
               boxArtUrl='/gamesImg/megamanX/boxArt.jpg'
-              href='/retro/snes/megaman_x'
+              href='/retro/snes/megamanx'
             />
             {/* ---------------------------------------------------------------------------------------------------------------------------- */}
           </div>
