@@ -48,7 +48,7 @@ const page = () => {
             <GameBtn
               gameName='Megaman X'
               boxArtUrl='/gamesImg/megamanX/boxArt.jpg'
-              href='/retro/snes/megamanx'
+              href='/retro/snes/megaman_x'
             />
             {/* ---------------------------------------------------------------------------------------------------------------------------- */}
           </div>

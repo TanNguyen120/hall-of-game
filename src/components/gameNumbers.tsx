@@ -3,6 +3,7 @@ import { Avatar, ListItem, ListItemAvatar, ListItemText } from '@mui/material';
 import DateRangeIcon from '@mui/icons-material/DateRange';
 import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import Image from 'next/image';
 
 const GameNumbers = ({
@@ -10,11 +11,13 @@ const GameNumbers = ({
   difficulty,
   personalScore,
   boxArtSrc,
+  timeSpent,
 }: {
   dateComplete: string;
   difficulty: string;
   personalScore: string;
   boxArtSrc: string;
+  timeSpent: string;
 }) => {
   return (
     <div className=' grid grid-cols-2'>
@@ -26,6 +29,14 @@ const GameNumbers = ({
             </Avatar>
           </ListItemAvatar>
           <ListItemText primary='Complete Date' secondary={dateComplete} />
+        </ListItem>
+        <ListItem>
+          <ListItemAvatar>
+            <Avatar>
+              <AccessTimeIcon />
+            </Avatar>
+          </ListItemAvatar>
+          <ListItemText primary='Complete Time' secondary={timeSpent} />
         </ListItem>
         <ListItem>
           <ListItemAvatar>

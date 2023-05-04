@@ -84,7 +84,7 @@ export default function Home() {
             shortDescription='First game of the megaman X serries with different story compare to megaman serries despite the similarly character designs '
             genre={['retro', 'platformer']}
             imgSrc='/gamesImg/megamanX/cardImg.jpg'
-            gameHref='/retro/snes/megamanX'
+            gameHref='/retro/snes/megaman_x'
           />
         </div>
       </Container>
